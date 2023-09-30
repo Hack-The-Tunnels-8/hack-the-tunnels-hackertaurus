@@ -34,6 +34,12 @@ $black : #000F08;
 
 }
 
+@media (prefers-color-scheme: dark) {
+  &__authentication {
+    border-color: white;
+  }
+}
+
 }
 
 img { 

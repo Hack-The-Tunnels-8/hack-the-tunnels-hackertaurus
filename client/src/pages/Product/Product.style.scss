@@ -1,0 +1,51 @@
+$lavender : #FFC4EB;
+$green : #24D043;
+$black : #000F08;
+
+body {background-color: rgb(30 215 96);}
+
+.product-page {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    column-count: 2;
+    column-gap: 100px;
+    column-rule: 1000px solid white;
+    
+    &__img {
+        padding-top: 200px;
+        height: 100px;
+        width: 100px;
+        
+        
+
+    }
+
+}
+
+#ProductImage{
+    // margin-left: 450px;
+    // margin-top: auto;
+    // margin-bottom: auto;
+    height: 300px;
+    width: 300px;
+
+}
+
+
+h3 {
+    padding-top: 100px;
+    color: $lavender;
+}
+
+p {
+    padding-top: 100px;
+    color: rgb(30 215 96);
+
+}
+
+
+    
+
+  
+
