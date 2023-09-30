@@ -8,10 +8,10 @@ $black : #000F08;
   width: 100%;
   justify-content: space-between;
   height: 75px;
-  width: 100%;
   display: flex;
   align-items: center;
   position: fixed; // keeps nav bar at the top
+  top: 0;
   
 
 &__authentication {
@@ -24,4 +24,9 @@ $black : #000F08;
   background-color: $lavender;
 }
 
+}
+
+img { 
+  width: 75px;
+  height: 75px;
 }
