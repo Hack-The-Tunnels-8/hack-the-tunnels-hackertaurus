@@ -20,7 +20,7 @@ function Home() {
     <Page>
       <div className="home-page">
         <h1 className="home-page__title">Home</h1>
-        <p>Hello World</p>
+        <p>Hello World is still here</p>
         <h2>Products:</h2>
         <div className="home-page__products">
           {products.map((product) => (
