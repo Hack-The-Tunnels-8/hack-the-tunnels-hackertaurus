@@ -31,7 +31,17 @@ $black : #000F08;
   margin-left: 15px;
   border-color: green;
   border-width: 3px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: -2;
 
+}
+
+@keyframes example {
+  0% {left:0px; top:0px;}
+  50% {left:0px; top:1000px;}
+  100% {left:0px; top:0px;}
 }
 
 @media (prefers-color-scheme: dark) {
