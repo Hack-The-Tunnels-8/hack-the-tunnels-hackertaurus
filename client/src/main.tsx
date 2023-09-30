@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { CookiesProvider, useCookies } from "react-cookie";
+import NotFound from "./pages/NotFound";
 import {
   Admin,
   Checkout,
@@ -44,8 +45,8 @@ const router = createBrowserRouter([
     element: <CreateProduct />,
   },
   {
-    path: "*",
-    element: <div>404</div>,
+    path: "/NotFound",
+    element: <NotFound />,
   },
 ]);
 
