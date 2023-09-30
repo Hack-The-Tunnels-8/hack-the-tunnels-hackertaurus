@@ -28,6 +28,8 @@ function Login() {
     <Page>
       <div className="login-page">
         <h1>Login</h1>
+        <input className='login-page__auth' placeholder='username'></input>
+        <input className='login-page__auth' placeholder = 'password'></input>
         <button onClick={() => attemptLogin()}>
           Login (as user set in code)
         </button>
