@@ -18,6 +18,7 @@ function Home() {
 
   return (
     <Page>
+      
       <div className="home-page">
         <h1 className="home-page__title">Home</h1>
         <p>Hello World</p>
