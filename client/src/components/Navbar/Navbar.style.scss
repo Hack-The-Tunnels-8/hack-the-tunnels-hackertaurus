@@ -11,6 +11,7 @@ $black : #000F08;
   display: flex;
   align-items: center;
   position: fixed; // keeps nav bar at the top
+  top: 0;
   
 
 &__authentication {
@@ -18,7 +19,7 @@ $black : #000F08;
   height: 50px;
   margin-right: 15px;
   border-radius: 50px;
-  border-color: black;
+  border-color: green;
   border-width: 3px;
   background-color: $lavender;
 }
@@ -28,9 +29,20 @@ $black : #000F08;
   width: 75px;
   height: 75px;
   margin-left: 15px;
-  border-color: black;
+  border-color: green;
   border-width: 3px;
 
 }
 
+@media (prefers-color-scheme: dark) {
+  &__authentication {
+    border-color: white;
+  }
+}
+
+}
+
+img { 
+  width: 75px;
+  height: 75px;
 }

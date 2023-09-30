@@ -10,7 +10,9 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar__logo">
-        <Link to="/">Store Logo</Link>
+        <Link to="/">
+          <img src="https://img.icons8.com/ios/50/FFC4EB/drawing--v2.png"></img>
+          </Link>
       </div>
       <div className="navbar__account">
         {loggedIn() === false ? (

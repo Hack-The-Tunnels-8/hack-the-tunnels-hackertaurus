@@ -3,6 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import { Page } from "../../components";
 import { ServiceAPI } from "../../infrastructure";
 import "./Product.style.scss";
+import image from "../../Images/81xvE1EG6dL.jpeg";
 
 function Product() {
   const { id } = useParams();
@@ -30,9 +31,16 @@ function Product() {
         {product && (
           <>
             <div className="product-page__product">
+            <img id='ProductImage' src = {image}></img>
+            
+              <div className="product-page__img">
+             
+               
+              </div>
+              
               <h3>Title: {product.title}</h3>
-              <p>ID: {id}</p>
-              <p>Description: {product.description}</p>
+              <p>ID: {id} </p>
+              <p>Description: {"Loren Ispum Loren Ispum Loren Ispum Loren Ispum Loren Ispum Loren Ispum Loren Ispum Loren Ispum"}</p>
             </div>
             <Link to={`/checkout/${product.id}`}>
               <button>Buy Now</button>
