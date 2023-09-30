@@ -4,13 +4,27 @@ $green : #24D043;
 $black : #000F08;
 
 .login-page {
+    margin-top: 70px;
+    color: white;
+    text-align: center;
+
 
     &__auth {
-        background-color: red;
         display: block;
         width: 300px;
         height: 50px;
         border-radius: 50px;
-        
+        margin-bottom: 15px;
+        margin-left: auto;
+    margin-right: auto;
     }
+
+}
+.login-page button {
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
