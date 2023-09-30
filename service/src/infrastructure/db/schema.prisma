@@ -18,6 +18,7 @@ model Product {
   imageUrl    String?
   lineItems   LineItem[]
   deleted     Boolean   @default(false)
+
 }
 
 model Order {
@@ -53,9 +54,4 @@ model Account {
   updatedAt DateTime @default(now())
 }
 
-model Review{
-  reviewsID   String @unique
-  rating    Int
-  text      String
 
-}
