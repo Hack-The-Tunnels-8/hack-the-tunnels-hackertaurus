@@ -32,7 +32,7 @@ function Product() {
           <>
             <div className="product-page__product">
               <div className="product-page__img">
-                <img src = {image}></img>
+                <img id='ProductImage' src = {image}></img>
               </div>
               
               <h3>Title: {product.title}</h3>
