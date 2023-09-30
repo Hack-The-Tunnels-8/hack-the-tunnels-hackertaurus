@@ -4,10 +4,14 @@ $green : #24D043;
 $black : #000F08;
 
 .home-page {
+width: 100%;
+
   &__title {
-    color: red;
+    
     margin-top: 75px;
   }
+
+
 
   &__products {
     display: flex;
@@ -20,4 +24,18 @@ $black : #000F08;
       color: inherit;
     }
   }
+}
+@media (prefers-color-scheme: dark) {
+  .home-page {
+    background-color: $black;
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .home-page {
+    background-color: white;
+    color: $black;
+  }
+
 }
