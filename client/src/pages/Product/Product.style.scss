@@ -11,6 +11,7 @@ body {background-color: rgb(30 215 96);}
     column-count: 2;
     column-gap: 100px;
     column-rule: 1000px solid white;
+   
     
     &__img {
         padding-top: 200px;
@@ -24,9 +25,9 @@ body {background-color: rgb(30 215 96);}
 }
 
 #ProductImage{
-    // margin-left: 450px;
-    // margin-top: auto;
-    // margin-bottom: auto;
+    margin-left: 600px;
+    margin-top: 100px;
+    margin-bottom: auto;
     height: 300px;
     width: 300px;
 
