@@ -5,7 +5,9 @@
 
   &__products {
     display: flex;
-    flex-direction: column;
+    flex-direction: rows;
+    flex-wrap: wrap;
+    gap: 15px; 
 
     a {
       text-decoration: none;
